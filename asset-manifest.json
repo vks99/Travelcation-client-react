@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Travelcation-client-react/static/css/main.57cadd76.css",
+    "main.js": "/Travelcation-client-react/static/js/main.fc736193.js",
+    "static/js/787.d7c30edc.chunk.js": "/Travelcation-client-react/static/js/787.d7c30edc.chunk.js",
+    "static/media/booking-background-image8.jpg": "/Travelcation-client-react/static/media/booking-background-image8.f80333453a7baedfd471.jpg",
+    "static/media/DestinationHeader.jpg": "/Travelcation-client-react/static/media/DestinationHeader.a775c938d4cb27c7e6db.jpg",
+    "static/media/blogpost_bg1.jpg": "/Travelcation-client-react/static/media/blogpost_bg1.2f08b342d1c652bb3888.jpg",
+    "index.html": "/Travelcation-client-react/index.html",
+    "main.57cadd76.css.map": "/Travelcation-client-react/static/css/main.57cadd76.css.map",
+    "main.fc736193.js.map": "/Travelcation-client-react/static/js/main.fc736193.js.map",
+    "787.d7c30edc.chunk.js.map": "/Travelcation-client-react/static/js/787.d7c30edc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57cadd76.css",
+    "static/js/main.fc736193.js"
+  ]
+}
