@@ -1,7 +1,6 @@
-import { NavLink } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 import Carousel from 'react-bootstrap/Carousel';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
 //set history form
 type order = {

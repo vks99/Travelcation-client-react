@@ -14,7 +14,6 @@ import Login from './components/auth/Login';
 import Payment from './pages/Payment';
 import Signup from './components/auth/Signup';
 import Footer from './components/footer';
-import Header from './components/header';
 import ProtectedRoute from './components/auth/ProtectedRoute';
 
 import { AuthContextProvider } from './context/AuthContext';

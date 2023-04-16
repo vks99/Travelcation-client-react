@@ -1,12 +1,7 @@
-
-import { NavLink } from 'react-router-dom';
 import { useState, useContext } from 'react';
 import axios from 'axios';
-import { Alert } from "reactstrap";
-import decode from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
 import AuthContext, { AuthContextType } from '../../context/AuthContext';
-
 
 const Signup=()=>{
 	//set AuthContext
@@ -21,7 +16,7 @@ const Signup=()=>{
     password2: '',
   });
 
-  const { name, email, password, password2,address,phone } = formData2;
+  const { name, email, password, address,phone } = formData2;
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) =>
     setFormData({ ...formData2, [e.target.name]: e.target.value });

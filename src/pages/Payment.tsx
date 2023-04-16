@@ -70,7 +70,7 @@ const Payment=()=>{
                     destinationPrice: data.price
                 }));
                 //post method to send the payment details
-                const response =  axios.post(
+                axios.post(
                     'https://travelcationserver.onrender.com/Payment', payment
                 ).then((res) => {
                     if(res.data===true)

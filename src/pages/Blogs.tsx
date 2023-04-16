@@ -1,8 +1,5 @@
-import { NavLink } from 'react-router-dom';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import axios from 'axios';
-import { post } from 'jquery';
-import BlogPost from '../components/BlogPost';
 import '../App.css';
 
 //Importing the blogpost component

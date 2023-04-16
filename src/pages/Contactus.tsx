@@ -1,7 +1,6 @@
 // Importing required libaries
-import { NavLink } from 'react-router-dom';
 import '../App.css';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import { Alert } from "reactstrap";
 
@@ -26,7 +25,7 @@ const Contactus=()=>{
         e.preventDefault();
 
         // calling api after cliking submit button
-        const response = await axios.post(
+        await axios.post(
             'https://travelcationserver.onrender.com/contactus',formData
         )
         .then((res) => {

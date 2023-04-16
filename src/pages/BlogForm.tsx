@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { Form, Button, Container, Row, Col } from "react-bootstrap";
+
 import axios from 'axios';
-import { redirect } from "react-router-dom";
+
 import Carousel from 'react-bootstrap/Carousel';
 //import { useHistory } from "react-router-dom";
 
@@ -19,8 +19,8 @@ const BlogForm = () => {
   //Using the use state for the initializing the blog post.
   const [blogData, setBlogData] = useState<blogPost[]>([]);
   //using the use state for setting the success message
-  const [successMessage, setSuccessMessage] = useState("");
-  const [isOpen, setIsOpen] = useState(false);
+  // const [successMessage, setSuccessMessage] = useState("");
+  // const [isOpen, setIsOpen] = useState(false);
   //const history = useHistory();
 
   //Using the handle submit function as async

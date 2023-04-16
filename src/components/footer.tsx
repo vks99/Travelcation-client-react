@@ -1,5 +1,3 @@
-import { NavLink } from 'react-router-dom';
-
 const Footer=()=>{
     return( 
       <div className="bg-dark py-3">

@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useContext } from "react";
 import AuthContext, { AuthContextType } from "../context/AuthContext";
