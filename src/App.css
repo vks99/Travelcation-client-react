@@ -1,0 +1,208 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.me-auto {
+  margin-left: 15px !important ; /* if the nav is on the right */
+  margin-right: 15px;
+}
+
+.form-left-side {
+  background-color: #01d28e;
+}
+
+.icon {
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.form-right-side {
+  background-color: #fff;
+}
+
+.button {
+  background-color: #01d28e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.bg-img-top{
+  width: 100%;
+  height: 500px;
+}
+
+/* .card-img-right {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+} */
+
+.card-img-top{
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+.cardcontent{
+  width: 100%;
+  height: 10vw;
+  
+}
+.header-travelguide{
+  display: flex;
+  justify-content:center;
+  margin-bottom: 5px;
+}
+.card-image-travelguide{
+  width: 100%;
+  height: 20vw;
+  display:block;
+  position: static;
+  object-fit: cover;
+}
+.col-3-travelguide{
+  border: 1px solid black;
+  min-height: 500vh;
+}
+.card-text-travelguide{
+  width: 100%;
+ 
+}
+
+.travel-card {
+  height: 200px; /* set your desired height */
+  object-fit: cover; /* preserve aspect ratio and fill the height */
+}
+
+/* Destination Page Styling */
+
+:root{
+  --primary:#86b817;
+  --secondary:#fe8800;
+  --light:#f5f5f5;
+  --dark:#14141f;
+}
+
+.hero-header{
+  background: linear-gradient(rgba(20,30,31,0.7),rgba(20,20,31,0.7));
+  background-image: url("../public/images/Destination/DestinationHeader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.package-item{
+  box-shadow: 0 0 45px rgba(0,0,0,0.08);
+}
+
+.package-item img{
+  transition:0.5s;
+}
+
+.package-item:hover img{
+  transform:scale(1.1);
+}
+
+.btn{
+  font-family:'Nuito', sans-serif;
+  font-weight:600;
+  transition:0.5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary{
+  color:#ffffff;
+}
+
+.btn-sqaure{
+  width:38px;
+  height:38px;
+}
+
+.booking{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-image: url("../public/images/Destination/booking-background-image8.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.white-text {
+  color: white;
+}
+
+/* Blogs CSS */
+
+.blog-title {
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.blogpost{
+  background-image: url("../public/blogpost_bg1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* ContactUs Page Styling */
+
+.contact-form {
+  background: hsla(141, 54%, 86%, 1);
+
+  background: linear-gradient(
+    270deg,
+    hsla(141, 54%, 86%, 1) 22%,
+    hsla(200, 2%, 74%, 1) 74%
+  );
+
+  background: -moz-linear-gradient(
+    270deg,
+    hsla(141, 54%, 86%, 1) 22%,
+    hsla(200, 2%, 74%, 1) 74%
+  );
+
+  background: -webkit-linear-gradient(
+    270deg,
+    hsla(141, 54%, 86%, 1) 22%,
+    hsla(200, 2%, 74%, 1) 74%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#caefd7", endColorstr="#bbbdbe", GradientType=1 );
+}
+
+/* Footer Styling */
+
+.footer {
+  background-color: #eeeeee;
+  color: black;
+  text-align: center;
+  margin-top: auto;
+}
