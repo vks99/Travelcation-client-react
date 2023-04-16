@@ -27,7 +27,7 @@ function App() {
      <div className='main-content'>
         <Routes>
             <Route path='/Signup' element={<Signup />}/>
-            <Route path='/Login' element={<Login />}/>
+            <Route path='/Travelcation-client-react/Login' element={<Login />}/>
             <Route path='/' element={<Home />}/>
             <Route element={<ProtectedRoute />}>
                 <Route path='/Destination' element={<Destination />}/>
